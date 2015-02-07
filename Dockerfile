@@ -18,7 +18,7 @@ RUN		apt-get update \
 	&&	apt-get update \
 	&&	apt-get install -yqq --no-install-recommends --force-yes python-bufr emos \
 	&&	apt-get install -yqq --no-install-recommends \
-			python-pyste python-numpy \
+			python-pyste python-numpy libgrib-api-1.10.4 \
 			libmapnik libmapnik-dev mapnik-utils python-mapnik \
 			mapnik-input-plugin-gdal mapnik-input-plugin-ogr \
 			mapnik-input-plugin-postgis \
